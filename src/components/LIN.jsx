@@ -115,9 +115,6 @@ const LIN = () => {
   );
 };
 
-// Tailwind Custom Styling for Inputs
-const inputFieldStyles =
-  "w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400";
-document.styleSheets[0].insertRule(`.input-field { ${inputFieldStyles} }`, 0);
+
 
 export default LIN;
