@@ -82,7 +82,7 @@ function TV() {
 
   <div className="flex items-center justify-center bg-white w-full gap-6 py-6 px-14  mx-auto">
       {/* Image Section (1/3 Width) */}
-      <div className="relative w-[922px] h-[500px] mb-11">
+      <div className="relative w-[822px] h-[500px] mb-11">
         <img
           src={tv}
           alt="Thumbnail"
