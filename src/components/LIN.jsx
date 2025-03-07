@@ -78,7 +78,7 @@ const LIN = () => {
       </div>
 
       {/* Right Side - Form */}
-      <div className="pl-8 ">
+      <div className="pl-8 w-full">
       <div className="md:w-full  bg-gray-100 px-12 py-14">
         <h2 className="text-3xl font-bold text-[#706FAB] text-center mb-8">
           Join Leadership Initiative Network Today
