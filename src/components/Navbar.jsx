@@ -82,17 +82,17 @@ const Navbar = () => {
           </ul>
 
           {/* Give Now Button */}
-          <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-            <Link to="/give-now">
-              <button
-                className={`hidden md:block text-white px-4 py-2 rounded-md transition ${
-                  location.pathname === "/give-now" ? "bg-orange-500" : "bg-[#76B99A] hover:bg-green-500"
-                }`}
-              >
-                Give Now
-              </button>
-            </Link>
-          </motion.button>
+         <Link to="/give-now">
+  <motion.button
+    whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}
+    className={`hidden md:block text-white px-4 py-2 rounded-md transition ${
+      location.pathname === "/give-now" ? "bg-orange-500" : "bg-[#76B99A] hover:bg-green-500"
+    }`}
+  >
+    Give Now
+  </motion.button>
+</Link>
         </div>
       </nav>
     </>
