@@ -172,7 +172,7 @@ function Home() {
     grabCursor={true} // 🔹 Enables drag/swipe on desktop
     mousewheel={{ forceToAxis: true }} // 🔹 Enables scrolling with mouse wheel
     navigation={true} // 🔹 Adds left/right arrows (optional)
-    className="w-[85%] md:w-[100%] mt-16"
+    className="w-[85%] md:w-[100%]"
   >
     
 
